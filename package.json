@@ -1,0 +1,52 @@
+{
+  "name": "react-custom-progress-bar",
+  "version": "1.0.24",
+  "private": false,
+  "description": "This is a loading bar which can be customized according to needs",
+  "repository": "https://github.com/bijayrauniyar0/react-custom-progress-bar",
+  "author": {
+    "name": "Bijay Rauniyar",
+    "email": "loopverse@gmail.com",
+    "url": "https://github.com/bijayrauniyar0/"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "/dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.1.12",
+    "vite-plugin-dts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/node": "^22.5.1",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "globals": "^15.9.0",
+    "react": "^18.3.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

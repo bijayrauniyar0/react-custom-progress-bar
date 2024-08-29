@@ -1,0 +1,24 @@
+@keyframes loading {
+    0% {
+      width: 0;
+      background: #ffffff6b;
+    }
+    100% {
+      width: 100%;
+      background: #ffffff6b;
+    }
+  }
+  @keyframes completed {
+    0% {
+      opacity: 0;
+      background: #ffffff6b;
+    }
+    50% {
+      opacity: 1;
+      background: #e4e4e4c5;
+    }
+    100% {
+      opacity: 0;
+      background: #ffffff6b;
+    }
+  }
