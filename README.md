@@ -88,8 +88,10 @@ cd react-custom-progress-bar
 
 #### Install dependencies:
 
+```bash
 npm install
 
+```
 #### Start the development server:
 
 ```bash
