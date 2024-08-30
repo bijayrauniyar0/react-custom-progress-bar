@@ -74,11 +74,11 @@ The component comes with default animations for loading and completion states:
 
 You can customize these animations or extend them using styled-components if needed
 
-### Building and Developing
+## Building and Developing
 
-### To develop or make changes to the library:
+To develop or make changes to the library:
 
-## Clone the repository:
+#### Clone the repository:
 
 ```bash
 git clone https://github.com/bijayrauniyar0/react-custom-progress-bar.git
@@ -86,11 +86,11 @@ cd react-custom-progress-bar
 
 ```
 
-## Install dependencies:
+#### Install dependencies:
 
 npm install
 
-## Start the development server:
+#### Start the development server:
 
 ```bash
 npm run dev
@@ -98,7 +98,7 @@ Build the library:
 
 ```
 
-## Build the library:
+#### Build the library:
 
 ```bash
 
@@ -108,7 +108,7 @@ npm run build
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Apache-2.0 License. See the LICENSE file for more details.
 
 ## Contributing
 
