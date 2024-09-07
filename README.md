@@ -31,12 +31,13 @@ The `ProgressBar` component displays a visual representation of progress.
 
 ## Props
 
-| Prop              | Type   | Default   | Description                                         |
-| ----------------- | ------ | --------- | --------------------------------------------------- |
-| `progress`        | number | `0`       | The progress value (from 0 to 100).                 |
-| `barColor`        | string | `#00b7ff` | The color of the progress bar.                      |
-| `backgroundColor` | string | `#e9e9e9` | The background color of the progress bar container. |
-| `height`          | string | `0.75rem` | The height of the progress bar.                     |
+| Prop              | Type    | Default   | Description                                         |
+| ----------------- | ------- | --------- | --------------------------------------------------- |
+| `progress`        | number  | `0`       | The progress value (from 0 to 100).                 |
+| `barColor`        | string  | `#00b7ff` | The color of the progress bar.                      |
+| `backgroundColor` | string  | `#e9e9e9` | The background color of the progress bar container. |
+| `height`          | string  | `0.75rem` | The height of the progress bar.                     |
+| `animation`       | boolean | `true   ` | Animation state, pass false to disable animation    |
 
 ## Example Usage
 
@@ -46,7 +47,7 @@ The `ProgressBar` component displays a visual representation of progress.
 
 ```jsx
 import React from "react";
-import ProgressBar from "react-custom-progress-bar";
+import { ProgressBar } from "react-custom-progress-bar";
 
 const App = () => {
   return (
@@ -92,6 +93,7 @@ cd react-custom-progress-bar
 npm install
 
 ```
+
 #### Start the development server:
 
 ```bash
