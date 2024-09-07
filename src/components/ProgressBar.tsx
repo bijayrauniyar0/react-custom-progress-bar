@@ -6,6 +6,7 @@ interface ProgressBarProps {
   barColor?: string;
   backgroundColor?: string;
   height?: string;
+  animation?: boolean;
 }
 
 const ProgressBar: React.FC<ProgressBarProps> = ({
@@ -13,6 +14,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
   barColor = "#00b7ff",
   backgroundColor = "#e9e9e9",
   height = "0.75rem",
+  animation = true,
 }) => {
   // Ensure progress is between 0 and 100
   const clampedProgress = Math.max(0, Math.min(progress, 100));
@@ -64,17 +66,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
           transition: "width 0.3s ease-in-out",
         }}
       >
-        {/* <div
-          style={{
-            width: "100%",
-            height: height,
-            animation:
-              progress === 100
-                ? "completed 1s infinite ease"
-                : "loading 2s infinite ease-in-out",
-          }}
-        /> */}
-        <ProgressDiv />
+        {animation && <ProgressDiv />}
       </div>
     </div>
   );
